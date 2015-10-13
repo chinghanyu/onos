@@ -12,3 +12,8 @@ test:
   override:
     - echo "Skipped."
 
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: onos
